@@ -10,3 +10,10 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+var store = document.getElementById('store');
+var product = document.getElementById('product');
+var quantity = document.getElementById('quantity');
+
+form.addEventListener('submit', displaySentence)
+
