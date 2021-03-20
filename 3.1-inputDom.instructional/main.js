@@ -11,9 +11,19 @@
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 
-var store = document.getElementById('store');
-var product = document.getElementById('product');
-var quantity = document.getElementById('quantity');
+ var store = document.getElementById("store");
+ var product = document.getElementById("product");
+ var quantity = document.getElementById("quantity");
 
-form.addEventListener('submit', displaySentence)
+let displaySentence = document.querySelector('p');
+
+
+
+let setVar = () => {
+    
+    displaySentence.innerHTML = `I went to ${store.value} and bought ${quantity.value} ${product.value}.`;
+   console.log(displaySentence);
+}
+
+
 
